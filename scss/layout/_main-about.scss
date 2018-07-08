@@ -1,0 +1,13 @@
+.main-about {
+    background: $color-primary;
+    height: 760px;
+    width:100%;
+
+    .container {
+    	height: 100%;
+    }
+
+    &__btn {
+    	text-align: center;
+    }
+}

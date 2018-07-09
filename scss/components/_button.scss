@@ -16,6 +16,11 @@
 		font-size: 1.4rem;
 		width: 18rem;
 		padding: 1.5rem 0;
+		text-transform: none;
+
+		.fa {
+			margin-right: 10px;
+		}
 
 		&:hover {
 			background: transparent;
@@ -25,7 +30,9 @@
 	}
 
 	&--form {
-		width: 14rem;
+		width: 80px;
+		font-size: 1.2rem;
+		font-weight: 400;
 		outline: hidden;
 		box-shadow: none;
 		border: none;

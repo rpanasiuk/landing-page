@@ -1,17 +1,18 @@
 .section-title {
 	font-size: 2.6rem;
+	line-height: 1;
 	color: $color-tertiary;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 10rem;
 	position: relative;
 	width: 100%;
-	margin-bottom: 4rem;
+	margin-bottom: 7.8rem;
 
 	&:after {
 		content: "\f005"; //star
 		font-family: 'FontAwesome';
-		font-size: 3.7rem;
+		font-size: 3rem;
 		color: $color-tertiary;
 		line-height: 1;
 		position: absolute;
@@ -26,20 +27,20 @@
 
 		&:before {
 			content: "";
-			border-top: 5px solid $color-tertiary;
-			width: 12rem;
+			border-top: 4px solid $color-tertiary;
+			width: 8rem;
 			position: absolute;
-			bottom: -30px;
+			bottom: -28px;
 			left: 50%;
 			transform: translate(-125%, 100%);
 		}
 
 		&:after {
 			content: "";
-			border-top: 5px solid $color-tertiary;
-			width: 12rem;
+			border-top: 4px solid $color-tertiary;
+			width: 8rem;
 			position: absolute;
-			bottom: -30px;
+			bottom: -28px;
 			right: 50%;
 			transform: translate(125%, 100%);			
 		}	
@@ -66,7 +67,7 @@
 	}
 
 	&--banner {
-		margin-bottom: 6.7rem;
+		margin-bottom: 6rem;
 
 		h1 {
 			font-size: 6.8rem;
@@ -75,6 +76,10 @@
 			margin: 0;
 			padding: 0;
 		}
+	}
+
+	&--portfolio {
+		margin-bottom: calc(7.8rem - 18px);
 	}
 }
 
@@ -87,7 +92,7 @@
 	}
 
 	&--about {
-		margin: 0 auto;
+		margin: 0 auto 2rem;
 	    min-height: 18rem;
 	    width: 60%;
 	    column-count: 2;

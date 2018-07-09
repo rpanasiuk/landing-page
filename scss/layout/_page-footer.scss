@@ -1,15 +1,17 @@
 .page-footer {
-	height: 300px;
+	height: 100%;
 	font-size: 1.4rem;
 
 	&--upper {
 		background: $color-secondary;
 		height: 80%;
+		padding: 3.6rem 0;
 	}
 
 	&--lower {
 		background: $color-tertiary;
 		height: 20%;
+		padding: 2rem 0;
 	}
 
 	.container {
@@ -20,7 +22,6 @@
 	.col-1-3 {
 		display: flex;
 		padding: 20px;
-		align-items: center;
 		justify-content: center;
 	}
 
@@ -29,13 +30,14 @@
 		font-size: 1.8rem;
 		color: $color-white;
 		text-transform: uppercase;
-		margin-bottom: 1rem;
+		margin-bottom: 1.3rem;
 	}
 
 	&__box {		
 
 		&-item {
 			text-align: center;
+			padding: 0 25px;
 		}
 	}
 }
@@ -47,14 +49,14 @@
 		text-align: center;
 
 		li {
-			width: 50px;
-			height: 50px;
+			width: 40px;
+			height: 40px;
 			display: inline-flex;
 			border-radius: 50%;
 			box-shadow: inset 0 0 0 2px;
 			justify-content: center;
 			align-items: center;
-			margin-right: 5px;
+			margin: 0 5px 5px 0;
 
 			&:last-child {
 				margin: 0;
@@ -62,7 +64,7 @@
 		}
 
 		.fa {
-			font-size: 1.8rem;
+			font-size: 1.6rem;
 		}
 	}
 }
@@ -84,6 +86,7 @@
 }
 
 .page-footer__copyright {
+	font-size: 1rem;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;

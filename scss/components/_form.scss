@@ -1,8 +1,10 @@
 .form {
+    width: 60%;
+    margin: 0 auto;
  
     label {
         display: block;
-        color: #aaa;
+        color: #6C727BFF;
         font-size: 2rem;
         font-weight: 400;
     }
@@ -24,7 +26,7 @@
 }
 
 .form__control {
-    padding: 20px 15px;
+    padding: 6px 15px;
     max-width: 560px;
     width: 100%;
     transition: 0.4s border-color, 0.5s box-shadow;
@@ -41,7 +43,7 @@
 }
 
 textarea.form__control {
-    min-height:150px;
+    min-height:140px;
     resize:none;
     overflow: hidden;
 }  

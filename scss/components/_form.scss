@@ -11,7 +11,7 @@
 
     input,
     textarea {
-        font-size: 1.4rem;
+        font-size: 2.5rem;
     }
 
     &__row {
@@ -43,45 +43,31 @@
 }
 
 textarea.form__control {
-    min-height:140px;
+    min-height: 140px;
     resize:none;
     overflow: hidden;
-}  
+} 
 
-@media (max-width:700px) {
-    .form__control {
-        max-width: 100%;       
-
-        &:focus {
-            outline: none;
-            border-color: $color-tertiary;
-            box-shadow: 0 0 0 1px #000;
-        }  
-    }
-}
-
-@media (max-width:600px) {
-
-    .form {
-
-        &__row {
-
-            &-last {
-                flex-direction: column-reverse;
-            }        
-        }
-    }
-}
-
-@media (max-width:515px) {
-
+@media (max-width: 1140px) {}
+@media (max-width: 960px) {}
+@media (max-width: 720px) {}
+@media (max-width: 540px) {
     .form {
 
         &__row {
 
             &--last {
-                justify-content: center;
+                flex-direction: column-reverse;
             }        
         }
+
+        input,
+        textarea {
+            font-size: 3.8rem;
+        }
+    }
+
+    textarea.form__control {
+        min-height: 100px;
     }
 }
